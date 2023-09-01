@@ -1,0 +1,77 @@
+main{
+    color: white;
+}
+
+.First{
+    background-image: url(images/Vape.png);
+    display: flex;
+    justify-content: space-between;
+}
+
+.First h2{
+    margin-left: 90px;
+    padding-top: 90px;
+    font-size: 96px;
+    padding-bottom: 88px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.FirstGR{
+    background-image: linear-gradient(180deg, #000 0%, #9E0303 100%);
+    height: 150px;
+}
+
+.second{
+    background-color: #9E0303;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second h2{
+    padding-top: 63px;
+    margin-left: 90px;
+    font-family: 'Graduate', serif;
+    font-size: 128px;
+    padding-bottom: 120px;
+}
+
+.secondGR{
+    background-image: linear-gradient(180deg, #9E0303 0%, #C66C49 100%);
+    height: 150px;
+}
+
+.third{
+    background-color: #C66C49;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third h2{
+    padding-top: 76px;
+    margin-left: 90px;
+    font-family: 'Libre Franklin';
+    font-size: 128px;
+    padding-bottom: 120px;
+}
+
+.First img, .second img{
+margin-top: 108px;
+}
+
+.third img{
+    margin-top: 95px;
+}
+
+img{
+    margin-right: 119px;
+}
+
+@media (max-width:900px){
+    h2{
+        font-size: 24px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    img{
+        width: 45px;
+    }
+}
